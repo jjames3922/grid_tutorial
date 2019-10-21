@@ -1,0 +1,44 @@
+.container {
+  background: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (150px)[2];
+      grid-template-rows: repeat(2, 150px);
+  -ms-grid-columns: 40% 2fr 3fr;
+      grid-template-columns: 40% 2fr 3fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 150px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.item-1 {
+  background: red;
+}
+
+.item-2 {
+  background: green;
+}
+
+.item-3 {
+  background: #595f94;
+}
+
+.item-4 {
+  background: #ff00c8;
+}
+
+.item-5 {
+  background: #30afc5;
+}
+
+.item-6 {
+  background: #d9ff00;
+}
+/*# sourceMappingURL=all.css.map */

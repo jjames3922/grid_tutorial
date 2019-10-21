@@ -1,0 +1,43 @@
+.container {
+  background: #eee;
+  width: 1000px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 200px 200px 200px;
+
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+
+  &-1 {
+    background: red;
+  }
+
+  &-2 {
+    background: green;
+  }
+
+  &-3 {
+    background: rgb(89, 95, 148);
+  }
+
+  &-4 {
+    background: rgb(255, 0, 200);
+  }
+
+  &-5 {
+    background: rgb(48, 175, 197);
+  }
+
+  &-6 {
+    background: rgb(217, 255, 0);
+  }
+}
+
